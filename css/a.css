@@ -1,0 +1,944 @@
+@font-face {
+    font-family: 'a1';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/GENarrow);
+}
+@font-face {
+    font-family: 'a2';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/GESSTwo);
+}
+@font-face {
+    font-family: 'a3';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/GEAsifa);
+}
+@font-face {
+    font-family: 'a4';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AlMawashShattAl-Arab);
+}
+@font-face {
+    font-family: 'a5';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/DastNevis);
+}
+@font-face {
+    font-family: 'a6';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/FP_Atila);
+}
+@font-face {
+    font-family: 'a7';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/GEMBNajm);
+}
+@font-face {
+    font-family: 'a8';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/IslamicPalestine);
+}
+@font-face {
+    font-family: 'a9';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/FDK_Aban);
+}
+@font-face {
+    font-family: 'a10';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/OmarFont);
+}
+@font-face {
+    font-family: 'a11';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Ebhaar);
+}
+@font-face {
+    font-family: 'a12';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/ZahraArabic);
+}
+@font-face {
+    font-family: 'a13';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamahAlHorra);
+}
+@font-face {
+    font-family: 'a14';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamahAlislam);
+}
+@font-face {
+    font-family: 'a15';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Mj_Yalda);
+}
+@font-face {
+    font-family: 'a16';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AShekari);
+}
+@font-face {
+    font-family: 'a17';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamahAlFidaa);
+}
+@font-face {
+    font-family: 'a18';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/almwahebbyA4d);
+}
+@font-face {
+    font-family: 'a19';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Sayeh2);
+}
+@font-face {
+    font-family: 'a20';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraAlmBon);
+}
+@font-face {
+    font-family: 'a21';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/droid-sans);
+}
+@font-face {
+    font-family: 'a22';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Sayeh1);
+}
+@font-face {
+    font-family: 'a23';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/01Ghalam2);
+}
+@font-face {
+    font-family: 'a24';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/01Ghalam1);
+}
+@font-face {
+    font-family: 'a25';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/persian-badkht1);
+}
+@font-face {
+    font-family: 'a26';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/rawi);
+}
+@font-face {
+    font-family: 'a27';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/TachkiliFontTTF);
+}
+@font-face {
+    font-family: 'a28';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/persian-badkht2);
+}
+@font-face {
+    font-family: 'a29';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Hamada_light_font);
+}
+@font-face {
+    font-family: 'a30';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamahAlThawra);
+}
+@font-face {
+    font-family: 'a31';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/aref_graffiti);
+}
+@font-face {
+    font-family: 'a32';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamah1982);
+}
+@font-face {
+    font-family: 'a33';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AssafFont);
+}
+@font-face {
+    font-family: 'a34';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/evil);
+}
+@font-face {
+    font-family: 'a35';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/01Rekaa-Reguler);
+}
+@font-face {
+    font-family: 'a36';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamahKilania);
+}
+@font-face {
+    font-family: 'a37';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamah1964B);
+}
+@font-face {
+    font-family: 'a38';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamah1964R);
+}
+@font-face {
+    font-family: 'a39';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/FnOn);
+}
+@font-face {
+    font-family: 'a40';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Thwar_Fared);
+}
+@font-face {
+    font-family: 'a41';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/ziba);
+}
+@font-face {
+    font-family: 'a42';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Mj_Parand_0);
+}
+@font-face {
+    font-family: 'a43';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BArabics);
+}
+@font-face {
+    font-family: 'a44';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AbuhmedaFree);
+}
+@font-face {
+    font-family: 'a45';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/mahsa);
+}
+@font-face {
+    font-family: 'a46';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamahSahetAlAssi);
+}
+@font-face {
+    font-family: 'a47';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Ibtisam);
+}
+@font-face {
+    font-family: 'a48';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/b-hamid);
+}
+@font-face {
+    font-family: 'a49';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Ibtisam);
+}
+@font-face {
+    font-family: 'a50';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/esfahan);
+}
+@font-face {
+    font-family: 'a51';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Islamictwotblog3alm);
+}
+@font-face {
+    font-family: 'a52';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/01DjailSarkha);
+}
+@font-face {
+    font-family: 'a53';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/jazeera);
+}
+@font-face {
+    font-family: 'a54';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/yekan);
+}
+@font-face {
+    font-family: 'a55';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BArshia);
+}
+@font-face {
+    font-family: 'a56';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/shekari);
+}
+@font-face {
+    font-family: 'a57';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AL-Gemah-Alhoda);
+}
+@font-face {
+    font-family: 'a58';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BArabicStyle);
+}
+@font-face {
+    font-family: 'a59';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/almawadah);
+}
+@font-face {
+    font-family: 'a60';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamahHoms);
+}
+@font-face {
+    font-family: 'a61';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/HeshamKufi);
+}
+@font-face {
+    font-family: 'a62';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AraHamahZanki);
+}
+@font-face {
+    font-family: 'a63';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/homa);
+}
+@font-face {
+    font-family: 'a64';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BRoya);
+}
+@font-face {
+    font-family: 'a65';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/nazli);
+}
+@font-face {
+    font-family: 'a66';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/helal);
+}
+@font-face {
+    font-family: 'a67';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/01sultan_normal_phonto_mezajeey);
+}
+@font-face {
+    font-family: 'a68';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/fantezy);
+}
+@font-face {
+    font-family: 'a69';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/0000AMashinTahrir);
+}
+@font-face {
+    font-family: 'a70';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BBardia);
+}
+@font-face {
+    font-family: 'a71';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/kamran);
+}
+@font-face {
+    font-family: 'a72';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/KacstArt);
+}
+@font-face {
+    font-family: 'a73';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BTitrBd);
+}
+@font-face {
+    font-family: 'a74';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Fanni);
+}
+@font-face {
+    font-family: 'a75';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BFarnaz);
+}
+@font-face {
+    font-family: 'a76';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AGam_Azad);
+}
+@font-face {
+    font-family: 'a77';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BFantezy);
+}
+@font-face {
+    font-family: 'a78';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/patch);
+}
+@font-face {
+    font-family: 'a79';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/algeria);
+}
+@font-face {
+    font-family: 'a80';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Abdoullah(bold));
+}
+@font-face {
+    font-family: 'a81';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Persian-khat-khati-02);
+}
+@font-face {
+    font-family: 'a82';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BMorvarid);
+}
+@font-face {
+    font-family: 'a83';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/BDavat);
+}
+@font-face {
+    font-family: 'a84';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/ToyorAljanah-Regular);
+}
+@font-face {
+    font-family: 'a85';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/maidan);
+}
+@font-face {
+    font-family: 'a86';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/IBRAHIMAl-ERDAS);
+}
+@font-face {
+    font-family: 'a87';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/H_Sima);
+}
+@font-face {
+    font-family: 'a88';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/KacstDigital);
+}
+@font-face {
+    font-family: 'a89';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/arabswell_1);
+}
+@font-face {
+    font-family: 'a90';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/aqeeq);
+}
+@font-face {
+    font-family: 'a91';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Mj_Joude);
+}
+@font-face {
+    font-family: 'a92';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/AfsanehFont);
+}
+@font-face {
+    font-family: 'a93';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Musamem-MotkenUnicodeHor);
+}
+@font-face {
+    font-family: 'a94';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/MotkenNoqta);
+}
+@font-face {
+    font-family: 'a95';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/MJ_Khateeb);
+}
+@font-face {
+    font-family: 'a96';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/FerdaosZdNormal);
+}
+@font-face {
+    font-family: 'a97';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/Shorooq_N1);
+}
+@font-face {
+    font-family: 'a98';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/asmaa);
+}
+@font-face {
+    font-family: 'a99';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/01BaradaReqa);
+}
+@font-face {
+    font-family: 'a100';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/KTabassom);
+}
+@font-face {
+    font-family: 'a101';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/WasmFontNormal);
+}
+@font-face {
+    font-family: 'a102';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/arabswell_2);
+}
+/*update arabic fonts 1*/
+
+@font-face {
+    font-family: 'a103';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/Susan);
+}
+@font-face {
+    font-family: 'a104';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01Abuhmeda-f2);
+}
+@font-face {
+    font-family: 'a105';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/Nawel);
+}
+@font-face {
+    font-family: 'a106';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/H_Esfahan);
+}
+@font-face {
+    font-family: 'a107';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/HacenEgypt);
+}
+@font-face {
+    font-family: 'a108';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/titr);
+}
+@font-face {
+    font-family: 'a109';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/hadee);
+}
+@font-face {
+    font-family: 'a110';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/BKoodakOutline);
+}
+@font-face {
+    font-family: 'a111';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/KacstDecorative);
+}
+@font-face {
+    font-family: 'a112';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/splart-h-mawaddah);
+}
+@font-face {
+    font-family: 'a113';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01djadli_soumam);
+}
+@font-face {
+    font-family: 'a114';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01DecoTypeThuluth);
+}
+@font-face {
+    font-family: 'a115';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/HacenTehran);
+}
+@font-face {
+    font-family: 'a116';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/00THSMT);
+}
+@font-face {
+    font-family: 'a117';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/UnicodeAbeer);
+}
+@font-face {
+    font-family: 'a118';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/faisalfree);
+}
+@font-face {
+    font-family: 'a119';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01DecoTypeNaskhVariants);
+}
+@font-face {
+    font-family: 'a120';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/Aref_Menna);
+}
+@font-face {
+    font-family: 'a121';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01KhalidArtBold);
+}
+@font-face {
+    font-family: 'a122';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/AlhadariBold);
+}
+@font-face {
+    font-family: 'a123';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/Dawlat);
+}
+@font-face {
+    font-family: 'a124';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/chini);
+}
+@font-face {
+    font-family: 'a125';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/Moalla);
+}
+@font-face {
+    font-family: 'a126';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/HacenCasablancaHeavy);
+}
+@font-face {
+    font-family: 'a127';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/BMajidSh);
+}
+@font-face {
+    font-family: 'a128';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/BKamranO);
+}
+@font-face {
+    font-family: 'a129';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01AdvertisingLight);
+}
+@font-face {
+    font-family: 'a130';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/AdvertisingBold);
+}
+@font-face {
+    font-family: 'a131';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/ae_AlManzomah);
+}
+@font-face {
+    font-family: 'a132';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/HacenTypographerHeavy);
+}
+@font-face {
+    font-family: 'a133';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/HacenSamra);
+}
+@font-face {
+    font-family: 'a134';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/AF-AlNassrah);
+}
+@font-face {
+    font-family: 'a135';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01HacenTypographer);
+}
+@font-face {
+    font-family: 'a136';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/PTBoldHeading);
+}
+@font-face {
+    font-family: 'a137';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/ae_Cortoba);
+}
+@font-face {
+    font-family: 'a138';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/TheMixArabBlack);
+}
+@font-face {
+    font-family: 'a139';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01AGARasheeqV);
+}
+@font-face {
+    font-family: 'a140';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01DiwaniLetter);
+}
+@font-face {
+    font-family: 'a141';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/arapix);
+}
+@font-face {
+    font-family: 'a142';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/AhmadHasaniFonts);
+}
+@font-face {
+    font-family: 'a143';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01MotkenUnicodeHor);
+}
+@font-face {
+    font-family: 'a144';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/KacstTitle);
+}
+@font-face {
+    font-family: 'a145';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/ayman15);
+}
+@font-face {
+    font-family: 'a146';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/01BSepideh);
+}
+@font-face {
+    font-family: 'a147';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/shadi);
+}
+@font-face {
+    font-family: 'a148';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/djadli_OTFmaghribidjadid);
+}
+@font-face {
+    font-family: 'a149';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/andlso);
+}
+@font-face {
+    font-family: 'a150';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/ae_Ostorah);
+}
+@font-face {
+    font-family: 'a151';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/TraditionalArabic);
+}
+@font-face {
+    font-family: 'a152';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/ae_AlBattar);
+}
+@font-face {
+    font-family: 'a153';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/KacstFarsi);
+}
+@font-face {
+    font-family: 'a154';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/Hayah);
+}
+@font-face {
+    font-family: 'a155';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/Thabit);
+}
+@font-face {
+    font-family: 'a156';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/SpiritOfDoha);
+}
+@font-face {
+    font-family: 'a157';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fo/a/update1/KacstBook);
+}

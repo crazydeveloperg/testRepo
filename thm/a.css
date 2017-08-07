@@ -1,0 +1,170 @@
+:root {
+    --launch-background-color: #060606 !important;
+    --toolbar-and-buttons-background-color: #1b1b1b !important;
+    --toolbar-and-buttons-background-image: url(thm/toolbarbg.png) !important;
+    --launch-buttons-text: #fff;
+    --launch-buttons-background-set1: #268298;
+    --launch-buttons-background-set2: #d51441;
+    --first-font-color: #ffffff !important;
+    --second-font-color: #ff00d1 !important;
+    --popup-background-color: #060606 !important;
+    --first-background-before-after-color: rgba(255, 255, 255, 0.12) !important;
+    --main-color-shadow: 0px 1px 2px rgba(0, 0, 0, 0) !important;
+    --page-overlays-transparency: rgba(0, 0, 0, 0.1);
+    --button-color-when-click: rgba(255, 255, 255, 0.15);
+    --button-text-color-when-click: #fff;
+    /* --toolbarsandbuttons-border-color:rgba(255, 255, 255, 0); */
+    
+    --toolbarsandbuttons-border-color: rgba(255, 255, 255, 0);
+    --toolbarsbuttons-border-color: rgba(255, 255, 255, 0);
+    --toolbarbuttons-border-radius: 0px;
+    --chosen-font: rgba(39, 127, 255, 0.6);
+    --filters-border-radius: 100%;
+    --filters-images-border-radius: 100%;
+}
+@font-face {
+    font-family: 'mainfont';
+    font-style: normal;
+    font-weight: 400;
+    src: url(hama-regular);
+}
+.landingPage,.secondpagerelatedcss {
+    background-color: rgb(0,0,0) !important;
+}
+.circlebuttons {
+    min-width: calc(50% - 2px) !important;
+    width: 70px !important;
+    border: none !important;
+    border-radius: 0px !important;
+    min-height: 70px !important;
+    line-height: 103px !important;
+    margin: auto !important;
+    font-size: 14px !important;
+}
+.circlebuttons img {
+    width: 32px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11px;
+    margin: auto;
+}
+.logodiv {
+    max-width: 90%;
+    max-height: 100%;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: calc(100% - 226px);
+    bottom: 0;
+    margin: auto;
+}
+.logodiv img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom: 0;
+}
+.indexbuttons {
+    max-width: 90%;
+    max-height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+/* Themes */
+
+.firstcolor {
+    background: var(--launch-buttons-background-set1) !important;
+    color: var(--launch-buttons-text) !important;
+    ;
+}
+.firstcolorshadow {
+    box-shadow: var(--main-color-shadow);
+}
+.secondcolor {
+    background: var(--launch-buttons-background-set2) !important;
+    color: var(--launch-buttons-text) !important;
+    ;
+}
+.thirdcolor {
+    background: var(--launch-buttons-background-set1) !important;
+    color: var(--launch-buttons-text) !important;
+    ;
+}
+.forthcolor {
+    background: var(--launch-buttons-background-set2) !important;
+    color: var(--launch-buttons-text) !important;
+    ;
+}
+.fifthcolor {
+    background: var(--launch-buttons-background-set1) !important;
+    color: var(--launch-buttons-text) !important;
+    ;
+}
+.sixthcolor {
+    background: var(--launch-buttons-background-set2) !important;
+    color: var(--launch-buttons-text) !important;
+    ;
+}
+/* .tools .toolbar-inner a{opacity:0 ;-webkit-transition-duration: 1000ms;transition-duration: 1000ms;}*/
+
+.tools .toolbar-inner {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    transition-delay: 100ms;
+    -webkit-transition-delay: 100ms;
+    overflow-y: hidden !important;
+}
+.undoredomenu {
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
+textarea {
+    color: #ffffff !important;
+    background: #3e454f !important;
+    border-radius: 8px;
+}
+.mainnavbar {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: var(--toolbarsandbuttons-border-color);
+}
+#colorList a {
+    min-width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    display:inline-block;
+  margin:5px;
+  font-size:12px;
+  white-space: pre-wrap; 
+  word-wrap:break-word;
+  padding-top:1px;
+    color: rgba(3,4,5,1);
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  text-align: center;
+}
+.range-slider  input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance:none;  
+  width:20px;
+  height:20px;
+  border-radius: 100%;
+  background: #434343;
+  position:relative;
+  border: 10px solid rgba(0,0,0,0.7);
+  z-index:3;
+  cursor: pointer;
+}
+
