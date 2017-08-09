@@ -75,7 +75,7 @@ body {
     max-height: 114px !important;
     overflow-y: hidden;
 }
-.emojul {
+.emojul,.fontSlider {
     width: calc(100% - 2px);
     font-size: 33px;
     position: absolute;
@@ -98,6 +98,9 @@ body {
     border-width: 1px;
     border-bottom: none;
     border-color: var(--toolbarsandbuttons-border-color);
+}
+.fontSlider {
+    list-style-type: none;
 }
 .rangesul {
     padding: 0px 16px !important;
@@ -396,6 +399,7 @@ body {
     overflow: auto;
     display: inline-flex;
     padding: 0px 0px !important;
+    background:#ffffff;
 }
 .thenewlist {
     height: calc(6vh);

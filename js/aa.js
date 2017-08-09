@@ -2,10 +2,15 @@
 var how_many_per_category = {
     Business: 11,
     Technology: 11,
-    Fashion: 11
+    Fashion: 11,
+    meme:17
 };
 var language = "english";
 var trans = {};
+trans.meme = {
+    english: "meme",
+    arabic: "meme"
+};
 trans.example = {
     english: "example",
     arabic: "example"
@@ -903,6 +908,7 @@ thisApp.frontpagecontainstext = true;
 thisApp.playid = "com.a_superlab.arabicphotoeditor";
 thisApp.stickerstartwith1 = true;
 var how_many_per_category = {
+    meme:17,
     smileys: 99,
     hands: 37,
     people: 50,

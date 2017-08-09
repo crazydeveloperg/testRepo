@@ -1316,9 +1316,14 @@ thisApp.menus.push({
     }, {
         buttonname: "<img class='toolbarmenuicon' src='icons/text/rgbcolorpicker.png'>" + trans.color[language],
         buttononclick: "prepare_color_wheel_forshape('fill',canvas.getActiveObject(),true,true)"
-    }, {
+    }, 
+    //{
+    //     buttonname: "<img class='toolbarmenuicon' src='icons/text/fonts.png'>" + trans.fonts[language],
+    //     buttononclick: "fonts_popover($(this))"
+    // },
+    {
         buttonname: "<img class='toolbarmenuicon' src='icons/text/fonts.png'>" + trans.fonts[language],
-        buttononclick: "fonts_popover($(this))"
+        buttononclick: "font_picker()"
     }, {
         buttonname: "<img class='toolbarmenuicon' src='icons/text/textsize.png'>" + trans.textsize[language],
         buttononclick: "textsettings_range_picker('Text Size')"
@@ -1722,8 +1727,8 @@ function textsettings_range_picker(a) {
         if (canvas.getActiveObject().shadow == null) {
             canvas.getActiveObject().setShadow({
                 color: "rgba(0,0,0,1)",
-                offsetX: "30",
-                offsetY: "15"
+                offsetX: "4",
+                offsetY: "5"
             });
             canvas.getActiveObject().shadow.blur = 5;
             canvas.renderAll()
@@ -1739,8 +1744,8 @@ function textsettings_range_picker(a) {
         } else {
             canvas.getActiveObject().setShadow({
                 color: "rgba(0,0,0,1)",
-                offsetX: "30",
-                offsetY: "15"
+                offsetX: "4",
+                offsetY: "5"
             });
             canvas.getActiveObject().shadow.blur = 5;
             canvas.renderAll();
